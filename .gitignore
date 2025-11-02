@@ -1,0 +1,58 @@
+# -----------------------
+# Python cache / compiled files
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.py[cod]
+*.so
+
+# -----------------------
+# Virtual environment
+# -----------------------
+venv/
+.env/
+env/
+ENV/
+
+# -----------------------
+# Raw data files (large, not tracked)
+# -----------------------
+data_raw/
+*.csv
+*.shp
+*.shx
+*.dbf
+*.prj
+*.gpkg
+*.geojson
+*.tif
+*.tiff
+
+# -----------------------
+# Reports
+# -----------------------
+Report-State-by-State-Summary-of-Finfish-Aquaculture-Leasing-Permitting-Requirements-2021.pdf
+Report-State-by-State-Summary-of-Finfish-Aquaculture-Leasing-Permitting-Requirements-2021.txt
+Report-State-by-State-Summary-of-Finfish-Aquaculture-Leasing-Permitting-Requirements-2021_parsed.csv
+Report-State-by-State-Summary-of-Seaweed-Aquaculture-Leasing-Permitting-Requirements-2021.pdf
+Report-State-by-State-Summary-of-Seaweed-Aquaculture-Leasing-Permitting-Requirements-2021.txt
+Report-State-by-State-Summary-of-Seaweed-Aquaculture-Leasing-Permitting-Requirements-2021_parsed.csv
+Report-State-by-State-Summary-of-Shellfish-Aquaculture-Leasing-Permitting-Requirements-2021.pdf
+Report-State-by-State-Summary-of-Shellfish-Aquaculture-Leasing-Permitting-Requirements-2021.txt
+Report-State-by-State-Summary-of-Shellfish-Aquaculture-Leasing-Permitting-Requirements-2021_parsed.csv
+
+# -----------------------
+# Jupyter Notebook checkpoints
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Mac / OS temp files
+# -----------------------
+.DS_Store
+Thumbs.db
